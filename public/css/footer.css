@@ -1,0 +1,146 @@
+#wrap {
+  width: 100%;
+  position: relative;
+}
+#wrap #footer {
+  border-top: 1px solid #ddd;
+  position: relative;
+  z-index: 1;
+  width: 100%;
+  background: #fff;
+}
+#wrap #footer .row {
+  width: 100%;
+}
+#wrap #footer .row .container {
+  width: 1064px;
+  margin: 0 auto;
+}
+#wrap #footer .row .container .gap {
+  width: auto;
+  margin: 0 7px;
+  font-size: 10px;
+  color: #999;
+  line-height: 150%;
+}
+#wrap #footer .row.row1 {
+  padding: 30px 0 50px 0;
+}
+#wrap #footer .row.row1 .container .gap {
+  display: flex;
+}
+#wrap #footer .row.row1 .container .gap .left {
+  width: 50%;
+}
+#wrap #footer .row.row1 .container .gap .left ul li {
+  padding: 0 0 40px 0;
+}
+#wrap #footer .row.row1 .container .gap .left ul li h2 {
+  font-size: 20px;
+  font-weight: 500;
+  color: #222;
+}
+#wrap #footer .row.row1 .container .gap .left ul li h2 span {
+  font-size: 16px;
+  color: #444;
+  margin: 0 0 0 10px;
+}
+#wrap #footer .row.row1 .container .gap .left ul li h1 {
+  font-size: 28px;
+  font-weight: 600;
+  color: #222;
+}
+#wrap #footer .row.row1 .container .gap .left ul li div {
+  display: flex;
+}
+#wrap #footer .row.row1 .container .gap .left ul li div a {
+  font-size: 14px;
+  color: #333;
+  width: 140px;
+  height: 40px;
+  border: 1px solid #ccc;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 10px 0 0;
+}
+#wrap #footer .row.row1 .container .gap .left ul li div a:hover {
+  color: rgb(95, 0, 128);
+}
+#wrap #footer .row.row1 .container .gap .left ul li p {
+  font-size: 12px;
+  color: #999;
+}
+#wrap #footer .row.row1 .container .gap .left ul li p a {
+  color: #999;
+}
+#wrap #footer .row.row1 .container .gap .right {
+  width: 50%;
+}
+#wrap #footer .row.row1 .container .gap .right ul li {
+  padding: 0 0 30px 0;
+}
+#wrap #footer .row.row1 .container .gap .right ul li:nth-child(1) a {
+  font-size: 14px;
+  color: #333;
+  margin: 0 10px 0 0;
+}
+#wrap #footer .row.row1 .container .gap .right ul li:nth-child(1) a:hover {
+  color: rgb(95, 0, 128);
+}
+#wrap #footer .row.row1 .container .gap .right ul li:nth-child(2) {
+  font-size: 12px;
+  color: #999;
+  line-height: 140%;
+}
+#wrap #footer .row.row1 .container .gap .right ul li:nth-child(2) a {
+  color: rgb(95, 0, 128);
+}
+#wrap #footer .row.row1 .container .gap .right ul li:nth-child(2) i {
+  margin: 0 5px;
+  font-size: 11px;
+}
+#wrap #footer .row.row1 .container .gap .right ul li:nth-child(3) {
+  display: flex;
+}
+#wrap #footer .row.row1 .container .gap .right ul li:nth-child(3) a {
+  display: block;
+  width: 30px;
+  height: 30px;
+  margin: 0 10px 0 0;
+}
+#wrap #footer .row.row1 .container .gap .right ul li:nth-child(3) a img {
+  width: 100%;
+}
+#wrap #footer .row.row2 .container .gap {
+  border-top: 1px solid #eee;
+}
+#wrap #footer .row.row2 .container .gap ul {
+  padding: 20px 0 30px 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+#wrap #footer .row.row2 .container .gap ul li {
+  width: 25%;
+}
+#wrap #footer .row.row2 .container .gap ul li a {
+  display: flex;
+}
+#wrap #footer .row.row2 .container .gap ul li a img {
+  width: auto;
+}
+#wrap #footer .row.row2 .container .gap ul li a div {
+  margin: 0 0 0 10px;
+}
+#wrap #footer .row.row3 {
+  padding: 30px 0 40px 0;
+  background: #f7f7f7;
+}
+#wrap #footer .row.row3 .container .gap {
+  text-align: center;
+}
+#wrap #footer .row.row3 .container .gap strong {
+  display: block;
+  padding: 10px 0 0 0;
+}

@@ -1,0 +1,264 @@
+#wrap {
+  width: 100%;
+  position: relative;
+}
+#wrap #header {
+  width: 100%;
+  height: 156px;
+  background: #fff;
+  position: relative;
+  z-index: 3;
+}
+#wrap #header .row1 {
+  width: 1050px;
+  height: 36px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  font-size: 12px;
+  position: relative;
+}
+#wrap #header .row1.login {
+  display: none;
+  position: relative;
+}
+#wrap #header .row1.login .login-memberclass {
+  display: inline-flex;
+  padding: 2px 10px;
+  border: 1px solid rgb(95, 0, 128);
+  border-radius: 7px;
+  font-size: 10px;
+  color: rgb(95, 0, 128);
+  margin: 0 10px 0 0;
+}
+#wrap #header .row1.login.on {
+  display: flex;
+}
+#wrap #header .row1.on {
+  display: none;
+}
+#wrap #header .row1 > a {
+  color: #333;
+}
+#wrap #header .row1 > a img {
+  width: 8px;
+  margin: 0 0 0 5px;
+}
+#wrap #header .row1 > a.join {
+  color: rgb(95, 0, 128);
+}
+#wrap #header .row1 > a.on {
+  color: rgb(95, 0, 128);
+}
+#wrap #header .row1 i {
+  color: #ccc;
+  margin: 0 10px;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
+#wrap #header .row1 .login-sub {
+  position: absolute;
+  top: 35px;
+  right: 75px;
+  width: 120px;
+  border: 1px solid #ddd;
+  background-color: #fff;
+  display: none;
+}
+#wrap #header .row1 .login-sub ul {
+  width: 100%;
+  padding: 10px;
+}
+#wrap #header .row1 .login-sub ul li {
+  width: 100%;
+}
+#wrap #header .row1 .login-sub ul li > a {
+  width: 100%;
+  font-size: 12px;
+  display: flex;
+  height: 24px;
+  align-items: center;
+  color: #333;
+}
+#wrap #header .row1 .login-sub ul li > a:hover {
+  color: rgb(95, 0, 128);
+}
+#wrap #header .row2 {
+  width: 1050px;
+  height: 64px;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+}
+#wrap #header .row2 .left {
+  width: 325px;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+#wrap #header .row2 .left .logo a {
+  font-size: 18px;
+  font-weight: 500;
+  color: rgb(95, 0, 128);
+}
+#wrap #header .row2 .left .logo a img {
+  width: auto;
+}
+#wrap #header .row2 .left .logo a span {
+  margin: 0 0 0 15px;
+  vertical-align: middle;
+}
+#wrap #header .row2 .left .text {
+  display: flex;
+  justify-content: center;
+}
+#wrap #header .row2 .left .text i {
+  color: #ccc;
+  margin: 0 10px;
+}
+#wrap #header .row2 .left .text a {
+  font-size: 18px;
+  font-weight: 400;
+  color: rgb(181, 181, 181);
+}
+#wrap #header .row2 .left .text a:hover {
+  color: rgb(95, 0, 128);
+  font-weight: 500;
+}
+#wrap #header .row2 .left .text a img {
+  width: auto;
+  vertical-align: top;
+  margin: 0 0 0 3px;
+}
+#wrap #header .row2 .center {
+  width: 400px;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+#wrap #header .row2 .center input {
+  width: 100%;
+  height: 48px;
+  border: 1px solid rgb(95, 0, 128);
+  border-radius: 5px;
+  padding: 0 15px;
+  font-size: 15px;
+  position: relative;
+  z-index: 1;
+}
+#wrap #header .row2 .center input:focus {
+  outline: 0;
+}
+#wrap #header .row2 .center a {
+  display: flex;
+  width: 46px;
+  height: 46px;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 9px;
+  right: 1px;
+  z-index: 2;
+  background-color: #fff;
+  border-radius: 5px;
+}
+#wrap #header .row2 .center a img {
+  width: 35px;
+}
+#wrap #header .row2 .right {
+  width: 325px;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+#wrap #header .row2 .right a {
+  margin: 0 0 0 20px;
+}
+#wrap #header .row2 .right a img {
+  width: auto;
+}
+#wrap #header .row3 {
+  width: 100%;
+  height: 56px;
+  background-color: #fff;
+  box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.08);
+}
+#wrap #header .row3.on {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 3;
+}
+#wrap #header .row3 .container {
+  width: 1050px;
+  height: 100%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#wrap #header .row3 .container .left {
+  width: 225px;
+  height: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+#wrap #header .row3 .container .left a {
+  font-size: 16px;
+  font-weight: 500;
+  display: flex;
+  justify-content: center;
+}
+#wrap #header .row3 .container .left a:hover {
+  color: rgb(95, 0, 128);
+}
+#wrap #header .row3 .container .left a img {
+  width: auto;
+  margin: 0 10px 0 0;
+}
+#wrap #header .row3 .container .center {
+  width: 600px;
+  height: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+#wrap #header .row3 .container .center a {
+  font-size: 16px;
+  font-weight: 500;
+  transition: all 0.3s;
+  color: rgb(51, 51, 51);
+}
+#wrap #header .row3 .container .center a:hover {
+  color: rgb(95, 0, 128);
+  text-decoration: underline;
+}
+#wrap #header .row3 .container .right {
+  width: 225px;
+  height: 56px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+#wrap #header .row3 .container .right a {
+  width: 132px;
+  height: 32px;
+  border: 1px solid #ddd;
+  border-radius: 16px;
+  font-size: 13px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#wrap #header .row3 .container .right a em {
+  color: rgb(95, 0, 128);
+}
+#wrap #header .row3 .container .right a span {
+  color: rgb(102, 102, 102);
+}

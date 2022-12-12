@@ -1,0 +1,43 @@
+#wrap {
+  width: 100%;
+  position: relative;
+}
+#wrap #modal {
+  width: 100%;
+  height: 42px;
+  background-color: rgb(95, 0, 128);
+}
+#wrap #modal .container {
+  width: 1050px;
+  height: 100%;
+  margin: 0 auto;
+  position: relative;
+}
+#wrap #modal .container a {
+  font-size: 14px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  color: #fff;
+  position: relative;
+  z-index: 1;
+}
+#wrap #modal .container a strong {
+  font-weight: 600;
+}
+#wrap #modal .container button {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 42px;
+  height: 42px;
+  z-index: 2;
+  border: 0;
+  background: none;
+  cursor: pointer;
+}
+#wrap #modal .container button img {
+  width: 100%;
+}

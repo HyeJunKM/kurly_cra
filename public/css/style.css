@@ -1,0 +1,533 @@
+@import url("./fonts.css");
+@import url("./reset.css");
+@import url("./modal.css");
+@import url("./header.css");
+@import url("./footer.css");
+@import url("./quick.css");
+@import url("./gotop.css");
+#skip {
+  display: none;
+}
+
+#wrap {
+  width: 100%;
+  position: relative;
+}
+#wrap #main {
+  width: 100%;
+}
+#wrap #main #join {
+  width: 100%;
+  padding: 50px 0 90px 0;
+}
+#wrap #main #join .container {
+  width: 640px;
+  margin: 0 auto;
+}
+#wrap #main #join .container .title {
+  width: 100%;
+  text-align: center;
+  padding: 0 0 50px 0;
+}
+#wrap #main #join .container .title h2 {
+  font-size: 28px;
+  color: #333;
+  font-weight: 600;
+}
+#wrap #main #join .container .content {
+  width: 100%;
+}
+#wrap #main #join .container .content form > ul {
+  width: 100%;
+  border-bottom: 1px solid rgb(247, 247, 247);
+}
+#wrap #main #join .container .content form > ul > li {
+  padding: 10px 20px;
+  display: flex;
+}
+#wrap #main #join .container .content form > ul > li:first-child {
+  padding: 0 0 13px 0;
+  display: block;
+  text-align: right;
+  border-bottom: 2px solid #000;
+}
+#wrap #main #join .container .content form > ul > li:first-child span {
+  font-size: 12px;
+}
+#wrap #main #join .container .content form > ul > li:first-child span i {
+  color: rgb(238, 106, 123);
+  vertical-align: baseline;
+}
+#wrap #main #join .container .content form > ul > li.phone2-box {
+  display: none;
+}
+#wrap #main #join .container .content form > ul > li .left {
+  width: 139px;
+  display: flex;
+  align-items: center;
+  height: 46px;
+}
+#wrap #main #join .container .content form > ul > li .left label {
+  font-size: 14px;
+  font-weight: 500;
+  color: rgb(51, 51, 51);
+}
+#wrap #main #join .container .content form > ul > li .left label i {
+  color: rgb(238, 106, 123);
+  vertical-align: baseline;
+}
+#wrap #main #join .container .content form > ul > li .right {
+  width: 461px;
+  padding: 0 128px 0 0;
+  position: relative;
+}
+#wrap #main #join .container .content form > ul > li .right input {
+  width: 100%;
+  height: 44px;
+  background: #fff;
+  font-size: 14px;
+  color: #444;
+  border: 1px solid #bbb;
+  padding: 0 15px;
+  border-radius: 3px;
+  outline-offset: -1px;
+  outline: 1px solid transparent;
+  transition: all 0.3s;
+}
+#wrap #main #join .container .content form > ul > li .right input:focus {
+  outline: 1px solid #555;
+}
+#wrap #main #join .container .content form > ul > li .right input::-moz-placeholder {
+  color: #888;
+  font-weight: 500;
+}
+#wrap #main #join .container .content form > ul > li .right input:-ms-input-placeholder {
+  color: #888;
+  font-weight: 500;
+}
+#wrap #main #join .container .content form > ul > li .right input::placeholder {
+  color: #888;
+  font-weight: 500;
+}
+#wrap #main #join .container .content form > ul > li .right input#phone2 {
+  position: relative;
+  z-index: 1;
+}
+#wrap #main #join .container .content form > ul > li .right input#address1 {
+  display: none;
+}
+#wrap #main #join .container .content form > ul > li .right input#address2 {
+  margin-top: 10px;
+  display: none;
+}
+#wrap #main #join .container .content form > ul > li .right input[type=radio] {
+  width: 24px;
+  height: 24px;
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  border: 1px solid #ddd;
+  border-radius: 12px;
+  padding: 0;
+  margin: 0 10px 0 0;
+  transition: none;
+}
+#wrap #main #join .container .content form > ul > li .right input[type=radio]:checked {
+  border: 7px solid rgb(95, 0, 128);
+}
+#wrap #main #join .container .content form > ul > li .right button {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 118px;
+  height: 44px;
+  border: 1px solid rgb(95, 0, 128);
+  background: #fff;
+  color: rgb(95, 0, 128);
+  font-size: 14px;
+  font-weight: 500;
+  border-radius: 3px;
+  outline: 0;
+  cursor: pointer;
+}
+#wrap #main #join .container .content form > ul > li .right button.phone-check {
+  border: 1px solid #bbb;
+  background: #fff;
+  color: #bbb;
+  cursor: default;
+}
+#wrap #main #join .container .content form > ul > li .right button.phone-check.on {
+  border: 1px solid rgb(95, 0, 128);
+  background: #fff;
+  color: rgb(95, 0, 128);
+  cursor: pointer;
+}
+#wrap #main #join .container .content form > ul > li .right button.phone-check-other {
+  display: none;
+  border: 1px solid rgb(95, 0, 128);
+  background: #fff;
+  color: rgb(95, 0, 128);
+  cursor: pointer;
+}
+#wrap #main #join .container .content form > ul > li .right button.phone-check-ok {
+  border: 1px solid #bbb;
+  background: #fff;
+  color: #bbb;
+  cursor: default;
+}
+#wrap #main #join .container .content form > ul > li .right button.phone-check-ok.on {
+  border: 1px solid rgb(95, 0, 128);
+  background: #fff;
+  color: rgb(95, 0, 128);
+  cursor: pointer;
+}
+#wrap #main #join .container .content form > ul > li .right button.address-search {
+  display: block;
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+#wrap #main #join .container .content form > ul > li .right button.address-search img {
+  width: 23px;
+  margin-top: -3px;
+}
+#wrap #main #join .container .content form > ul > li .right button.address-rescan {
+  display: none;
+}
+#wrap #main #join .container .content form > ul > li .right button.address-rescan img {
+  width: 23px;
+  margin-top: -3px;
+}
+#wrap #main #join .container .content form > ul > li .right.id-input .id-error {
+  font-size: 13px;
+  padding-top: 10px;
+  display: none;
+}
+#wrap #main #join .container .content form > ul > li .right.id-input .id-error.on {
+  display: block;
+  color: rgb(240, 63, 64);
+}
+#wrap #main #join .container .content form > ul > li .right.pw-input .pw-error {
+  display: none;
+  font-size: 13px;
+  padding-top: 10px;
+}
+#wrap #main #join .container .content form > ul > li .right.pw-input .pw-error.on {
+  display: block;
+  color: rgb(240, 63, 64);
+}
+#wrap #main #join .container .content form > ul > li .right.pw-check .pw2-error {
+  display: none;
+  font-size: 13px;
+  padding-top: 10px;
+}
+#wrap #main #join .container .content form > ul > li .right.pw-check .pw2-error.on {
+  display: block;
+  color: rgb(240, 63, 64);
+}
+#wrap #main #join .container .content form > ul > li .right.name-input .name-error {
+  display: none;
+  font-size: 13px;
+  padding-top: 10px;
+}
+#wrap #main #join .container .content form > ul > li .right.name-input .name-error.on {
+  display: block;
+  color: rgb(240, 63, 64);
+}
+#wrap #main #join .container .content form > ul > li .right.email-input .email-error {
+  display: none;
+  font-size: 13px;
+  padding-top: 10px;
+}
+#wrap #main #join .container .content form > ul > li .right.email-input .email-error.on {
+  display: block;
+  color: rgb(240, 63, 64);
+}
+#wrap #main #join .container .content form > ul > li .right.phone-input .phone-error {
+  display: none;
+  font-size: 13px;
+  padding-top: 10px;
+}
+#wrap #main #join .container .content form > ul > li .right.phone-input .phone-error.on {
+  display: block;
+  color: rgb(240, 63, 64);
+}
+#wrap #main #join .container .content form > ul > li .right.phone-input-ok {
+  position: relative;
+}
+#wrap #main #join .container .content form > ul > li .right.phone-input-ok .phone-time {
+  position: absolute;
+  top: 16px;
+  right: 140px;
+  color: rgb(240, 63, 64);
+  font-size: 14px;
+  z-index: 2;
+}
+#wrap #main #join .container .content form > ul > li .right.phone-input-ok .phone-time .em {
+  margin: 0 4px;
+}
+#wrap #main #join .container .content form > ul > li .right.phone-input-ok .phone-p {
+  display: block;
+  font-size: 12px;
+  padding-top: 20px;
+  line-height: 140%;
+  color: rgb(102, 102, 102);
+}
+#wrap #main #join .container .content form > ul > li .right.address p {
+  font-size: 12px;
+  color: rgb(102, 102, 102);
+  padding: 10px 0 0 0;
+}
+#wrap #main #join .container .content form > ul > li .right.radio-btn {
+  display: flex;
+  justify-content: space-between;
+  font-size: 14px;
+  align-items: center;
+}
+#wrap #main #join .container .content form > ul > li .right.birth ul {
+  width: 100%;
+  height: 44px;
+  display: flex;
+  border: 1px solid #bbb;
+  border-radius: 3px;
+  overflow: hidden;
+}
+#wrap #main #join .container .content form > ul > li .right.birth ul li {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#wrap #main #join .container .content form > ul > li .right.birth ul li:nth-child(odd) {
+  width: 30%;
+}
+#wrap #main #join .container .content form > ul > li .right.birth ul li:nth-child(even) {
+  width: 5%;
+}
+#wrap #main #join .container .content form > ul > li .right.birth ul li input {
+  width: 100%;
+  height: 44px;
+  border: 0;
+  text-align: center;
+  outline: 0;
+}
+#wrap #main #join .container .content form > ul > li .right.birth ul li input::-moz-placeholder {
+  color: rgb(102, 102, 102);
+  font-size: 14px;
+}
+#wrap #main #join .container .content form > ul > li .right.birth ul li input:-ms-input-placeholder {
+  color: rgb(102, 102, 102);
+  font-size: 14px;
+}
+#wrap #main #join .container .content form > ul > li .right.birth ul li input::placeholder {
+  color: rgb(102, 102, 102);
+  font-size: 14px;
+}
+#wrap #main #join .container .content form > ul > li .right.birth ul li i {
+  color: #ccc;
+  font-size: 20px;
+}
+#wrap #main #join .container .content form > ul > li .right.birth .birth-error {
+  display: none;
+  font-size: 13px;
+  padding-top: 10px;
+}
+#wrap #main #join .container .content form > ul > li .right.birth .birth-error.on {
+  display: block;
+  color: rgb(240, 63, 64);
+}
+#wrap #main #join .container .content form > ul > li .right.add {
+  display: block;
+}
+#wrap #main #join .container .content form > ul > li .right.add .add-box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 46px;
+}
+#wrap #main #join .container .content form > ul > li .right.add #referId {
+  margin: 10px 0;
+  display: none;
+}
+#wrap #main #join .container .content form > ul > li .right.add p {
+  font-size: 12px;
+  color: rgb(102, 102, 102);
+  line-height: 140%;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  display: none;
+}
+#wrap #main #join .container .content form > ul > li .right.agree {
+  padding: 0;
+  margin: 0;
+}
+#wrap #main #join .container .content form > ul > li .right.agree ul {
+  width: 100%;
+}
+#wrap #main #join .container .content form > ul > li .right.agree ul li {
+  width: 100%;
+  padding: 10px 0;
+  position: relative;
+}
+#wrap #main #join .container .content form > ul > li .right.agree ul li .agree-view {
+  position: absolute;
+  top: 10px;
+  right: 0;
+  color: rgb(95, 0, 128);
+  font-size: 14px;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
+#wrap #main #join .container .content form > ul > li .right.agree ul li .agree-view img {
+  width: auto;
+  margin: -2px 0 0 8px;
+}
+#wrap #main #join .container .content form > ul > li .right.agree ul li:nth-child(1) {
+  font-size: 18px;
+  font-weight: 500;
+}
+#wrap #main #join .container .content form > ul > li .right.agree ul li:nth-child(1) p {
+  font-size: 12px;
+  color: rgb(102, 102, 102);
+  padding: 5px 0 0 34px;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
+#wrap #main #join .container .content form > ul > li .right.agree ul li:nth-child(6) {
+  padding-left: 34px;
+}
+#wrap #main #join .container .content form > ul > li .right.agree ul li:nth-child(6) label {
+  margin: 0 60px 0 0;
+}
+#wrap #main #join .container .content form > ul > li .right.agree ul li:nth-child(7) {
+  padding-left: 68px;
+}
+#wrap #main #join .container .content form > ul > li .right.agree ul li:nth-child(7) p {
+  font-size: 12px;
+  color: rgb(95, 0, 128);
+  padding: 0 0 0 15px;
+  background: url(../img/ico_sub_dot.svg) no-repeat 0 50%;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
+#wrap #main #join .container .content form > ul > li .right.agree ul li em {
+  font-size: 14px;
+  color: #bbb;
+  margin: 0 0 0 3px;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
+#wrap #main #join .container .content form > ul > li .right.agree ul li label {
+  position: relative;
+}
+#wrap #main #join .container .content form > ul > li .right.agree ul li label input[type=checkbox] {
+  width: 24px;
+  height: 24px;
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  background: url(../img/uncheck.svg) no-repeat 50%;
+  border-radius: 12px;
+  padding: 0;
+  margin: 0 10px 0 0;
+  transition: none;
+}
+#wrap #main #join .container .content form > ul > li .right.agree ul li label input[type=checkbox]:checked {
+  background-image: url(../img/check.svg);
+}
+#wrap #main #join .container .content form > ul > li:last-child .left {
+  height: auto;
+  padding: 15px 0;
+  align-items: flex-start;
+}
+#wrap #main #join .container .content form > ul > li.hr {
+  padding: 20px 0 0 0;
+}
+#wrap #main #join .container .content form > ul > li hr {
+  border: 0;
+  width: 100%;
+  height: 1px;
+  background: #000;
+  margin: 10px 0 0 0;
+}
+#wrap #main #join .container .content form .submit {
+  padding: 40px 0;
+  text-align: center;
+}
+#wrap #main #join .container .content form .submit button {
+  width: 240px;
+  height: 56px;
+  color: #fff;
+  background: rgb(95, 0, 128);
+  font-size: 16px;
+  font-weight: 700;
+  border: 0;
+  border-radius: 3px;
+  cursor: pointer;
+}
+#wrap .member-modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.4);
+  z-index: 5;
+}
+#wrap .member-modal .wrap {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#wrap .member-modal .wrap .container {
+  width: 360px;
+  height: 170px;
+  border-radius: 5px;
+  overflow: hidden;
+}
+#wrap .member-modal .wrap .container .content {
+  width: 100%;
+  height: 120px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+}
+#wrap .member-modal .wrap .container .content p {
+  width: 100%;
+  font-size: 15px;
+  font-weight: 500;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  line-height: 140%;
+  text-align: center;
+  padding: 0 20px;
+}
+#wrap .member-modal .wrap .container .button-box {
+  width: 100%;
+  height: 55px;
+  border-top: 1px solid #eee;
+}
+#wrap .member-modal .wrap .container .button-box button {
+  width: 100%;
+  height: 55px;
+  background-color: #fff;
+  border: 0;
+  color: rgb(95, 0, 128);
+  cursor: pointer;
+  font-weight: 600;
+}
